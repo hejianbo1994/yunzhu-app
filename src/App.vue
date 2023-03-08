@@ -1,11 +1,15 @@
 <script setup>
-import Greet from "./components/Greet.vue";
+import Search from "./components/Search.vue";
 </script>
 
 <template>
   <div class="container">
-    <Greet />
+    <Search />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container {
+  padding: 20px;
+}
+</style>
